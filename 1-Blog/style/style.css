@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(180.00deg, rgb(55, 65, 81), rgb(17, 24, 39) 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header li {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.textFrontend {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+div p {
+    line-height: 28px;
+}
+
+.natalya {
+    font-size: 16px;
+}
+
+.developer {
+    font-size: 14px;
+}
+
+.textTeoria {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.textUniversal {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+p a {
+    color: #ffffff;
+}
+
+
+footer div {
+    font-size: 16px;
+    line-height: 28px;
+}
