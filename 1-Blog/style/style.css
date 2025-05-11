@@ -5,9 +5,27 @@ body {
     color: #ffffff;
 }
 
-li a {
+.menu {
+    width: 80px;
+    height: 21px;
+    left: 226px;
+    top: 80px;
+}
+
+ul a {
     color: #ffffff;
     text-decoration: none;
+}
+
+#search {
+    box-sizing: border-box;
+    width: 224px;
+    height: 40px;
+    background: rgba(31, 41, 55, 0.6);
+    border-radius: 10px;
+    border: none;
+    padding-left: 49px;
+    margin: 110px 0 32px 780px;
 }
 
 header li {
@@ -18,11 +36,28 @@ header li {
 .textFrontend {
     font-size: 14px;
     line-height: 16px;
+    width: 180px;
+    height: 16px;
+    left: 630px;
+    top: 180px;
+    opacity: 0.6;
+    /*margin: 80px 738px 14px 630px;*/
 }
 
 h1 {
     font-size: 24px;
     line-height: 38px;
+    /*margin: 0px 457px 30px 458px;*/
+}
+
+.imgnatalya img {
+    width: 50px;
+    height: 50px;
+}
+
+.imgmonitor img {
+    width: 896px;
+    height: 594px;
 }
 
 div p {
@@ -35,6 +70,7 @@ div p {
 
 .developer {
     font-size: 14px;
+    opacity: 0.6;
 }
 
 .textTeoria {
@@ -55,4 +91,5 @@ p a {
 footer div {
     font-size: 16px;
     line-height: 28px;
+    opacity: 0.6;
 }
