@@ -5,28 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
-    <main>
-        <h1>Регистрация</h1>
-        <div>Уже есть аккаунт? <a href="#">Войти</a></div>
+    <div class="main">
+        <h1 class="textRegistration">Регистрация</h1>
+        <div class="account">Уже есть аккаунт? <a href="#">Войти</a></div>
         <div>
-            <input type="text" placeholder="Введите название вашей компании" name="name_company" id="name_company">
+            <input class="inputNameCompany" type="text" placeholder="Введите название вашей компании"
+                name="name_company" id="name_company">
+        </div>
+        <div class="inputBorder">
+            <input class="inputNameUser" type="text" placeholder="Имя" name="name_user" id="name_user">
+            <input class="inputSernameUser" type="text" placeholder="Фамилия" name="sername_user" id="sername_user">
         </div>
         <div>
-            <input type="text" placeholder="Имя" name="name_user" id="name_user">
-            <input type="text" placeholder="Фамилия" name="sername_user" id="sername_user">
+            <input class="inputEmail" type="email" placeholder="E-mail" name="email" id="email">
         </div>
-        <div>
-            <input type="email" placeholder="E-mail" name="email" id="email">
+        <button class="button">Зарегистрироваться</button>
+        <div class="conditions">
+            <input class="apply" type="checkbox" name="apply" id="apply" required>
+            <label class="applyText" for="apply">Я прочитал и принимаю <a href="#">Условия использования</a></label>
         </div>
-        <button>Зарегистрироваться</button>
-        <div>
-            <input type="checkbox" name="apply" id="apply" required>
-            <label for="apply">Я прочитал и принимаю <a href="#">Условия использования</a></label>
-        </div>
-    </main>
+    </div>
 </body>
 
 </html>
