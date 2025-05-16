@@ -1,10 +1,6 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-}
-
-.main {
     /* Общие стили для всей страницы */
+    position: absolute;
     width: 582px;
     height: 573px;
     left: 429px;
@@ -12,6 +8,7 @@ body {
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background: rgb(255, 254, 254);
+    font-family: Open Sans, sans-serif;
 }
 
 .textRegistration {
@@ -28,6 +25,7 @@ body {
     /* Уже есть аккаунт? */
     color: rgb(102, 102, 102);
     font-size: 18px;
+    font-weight: 400;
     line-height: 25px;
     text-align: center;
 }
@@ -36,9 +34,21 @@ body {
     /* Войти? */
     color: rgb(8, 159, 224);
     font-size: 18px;
+    font-weight: 400;
     line-height: 25px;
     text-align: left;
     text-decoration-line: underline;
+}
+
+.container {
+    /* Флекс контейнер */
+    display: flex;
+    /* Направление основной оси сверху вниз */
+    flex-direction: column;
+    /* Расстояние между элементами */
+    gap: 22px;
+    /* Разместил элементы по центру */
+    align-items: center;
 }
 
 .inputNameCompany {
@@ -66,16 +76,13 @@ body {
 }
 
 .inputNameUser {
-    width: 194px;
+    width: 195px;
     height: 44px;
-    left: 522px;
-    top: 490px;
     font-style: italic;
     font-size: 16px;
     border: 1px solid rgb(245, 245, 245);
     border-radius: 5px;
     background-color: #F5F5F5;
-    margin: 22px 0px 0px 93px;
     box-sizing: border-box;
     padding-left: 10px;
 }
@@ -91,16 +98,13 @@ body {
 }
 
 .inputSernameUser {
-    width: 194px;
+    width: 195px;
     height: 44px;
-    left: 522px;
-    top: 490px;
     font-style: italic;
     font-size: 16px;
     border: 1px solid rgb(245, 245, 245);
     border-radius: 5px;
     background-color: #F5F5F5;
-    margin: 22px 0px 0px 0px;
     box-sizing: border-box;
     padding-left: 10px;
 }
@@ -117,14 +121,11 @@ body {
 .inputEmail {
     width: 394px;
     height: 44px;
-    left: 522px;
-    top: 556px;
     font-style: italic;
     font-size: 16px;
     border: 1px solid rgb(245, 245, 245);
     border-radius: 5px;
     background-color: #F5F5F5;
-    margin: 22px 95px 0px 93px;
     box-sizing: border-box;
     padding-left: 10px;
 }
@@ -145,18 +146,22 @@ body {
     color: #ffffff;
     border: 1px solid rgb(245, 245, 245);
     border-radius: 5px;
-    margin: 22px 95px 22px 93px;
     background-image: url(../image/Arrow\ 1.svg);
     background-repeat: no-repeat;
     background-position: calc(100% - 24px) center;
     color: rgb(255, 255, 255);
     font-size: 18px;
+    font-weight: 400;
     line-height: 25px;
     text-align: center;
 }
 
 .conditions {
-    margin: 0px 118px 91px 93px;
+    width: 394px;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
 }
 
 .apply {
@@ -167,6 +172,4 @@ body {
 .applyText a {
     color: #089FE0;
     text-decoration: none;
-    font-size: 14px;
-    line-height: 19px;
 }
