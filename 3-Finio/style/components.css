@@ -1,9 +1,19 @@
+.btn--primary {
+    background-color: var(--text-white);
+    color: var(--bg-blue);
+    border: 2px solid var(--text-white);
+    border-radius: 34px;
+    padding: 12px 32px;
+}
+
+/* Tarif */
+
 .tariff-card {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(369px, 1fr));
     margin: 0 auto;
     gap: 24px;
-    max-width: var(--layout-width);
+    max-width: 1156px;
 }
 
 .tariff-card__content {
@@ -22,21 +32,21 @@
     display: grid;
     place-items: left;
     text-align: left;
-    margin: 93px 40px 48px 40px;
+    margin: 77px 40px 48px;
 }
 
 .tariff-card__wrapper-center {
     display: grid;
     place-items: left;
     text-align: left;
-    margin: 16px 40px 48px 40px;
+    margin: 48px 40px;
 }
 
 .tariff-card__title {
     font-size: 32px;
     font-weight: 800;
     line-height: 120%;
-    margin-bottom: 15px;
+    margin: 16px 0;
 }
 
 .tariff-card__description {
@@ -68,35 +78,52 @@
 
 .price__row {
     display: grid;
-    grid-template-columns: 2fr auto;
-    align-items: center;
+    grid-template-columns: 168px 101px;
+    align-items: left;
     border-bottom: 1px solid #4e5d7c14;
     padding-bottom: 8px;
 }
 
+.price-new-bottom {
+    border-bottom: 1px solid #FFFFFF29;
+}
 
 .underline {
     display: grid;
-    grid-template-columns: 2fr auto;
+    grid-template-columns: 168px 101px;
     padding-bottom: 6px;
     text-align: left;
 }
 
-/* .price__row {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #4e5d7c14;
-    padding-bottom: 16px;
-    text-align: left;
+@media (max-width: 1024px) {
+
+    .tariff-card {
+        padding: 0 24px;
+    }
+
 }
 
-.underline {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 16px;
-    text-align: left;
-} */
+@media (max-width: 375px) {
 
+.tariff-card__content {
+    margin: 0px 24px;
+}
+
+    .tariff-card__content-12 {
+        margin: 0px 24px;
+    }
+
+    .tariff-card__wrapper-center-1 {
+        max-width: 328px;
+        margin: 48px 24px;
+        /*     margin: 93px 40px 48px 40px; */
+    }
+
+    .tariff-card__wrapper-center {
+        max-width: 328px;
+        margin: 48px 24px;
+    }
+}
 
 /* Button */
 
@@ -146,5 +173,6 @@
     line-height: 140%;
     border-radius: 8px;
     padding: 4px 16px;
-    margin-top: 48px;
+/*     margin-top: 48px; */
 }
+

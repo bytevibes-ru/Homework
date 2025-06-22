@@ -1,0 +1,89 @@
+/* footer */
+
+.footer {
+    background-color: #1A1D25;
+}
+
+.footer__wrapper {
+    max-width: 1393px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 64px 24px 48px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer__logo {
+    max-width: 283px;
+}
+
+.footer__slogan {
+    color: #FFFFFFB3;
+    margin: 16px 0;
+}
+
+.footer__list a {
+    color: #FFFFFF80;
+}
+
+.footer__contact {
+    color: #FFFFFFB3;
+}
+
+.post {
+    color: #FFFFFFB3;
+}
+
+.bottom {
+    max-width: 1393px;
+    margin: 0 auto;
+}
+
+@media (max-width: 375px) {
+
+    .footer__slogan {
+        margin: 16px 0 -8px;
+    }
+
+    .reviews__content {
+        flex-direction: column-reverse;
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+}
+
+/* bottom__wrapper */
+.bottom__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 32px 0 32px;
+}
+
+.copyright {
+    color: #FFFFFF80;
+}
+
+@media (max-width: 1024px) {
+
+    .bottom__wrapper {
+        padding: 32px 24px 32px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .bottom__wrapper {
+        flex-direction: column-reverse;
+        align-items: start;
+        gap: 24px;
+        padding: 48px 24px 64px;
+    }
+
+}
