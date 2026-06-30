@@ -4,12 +4,8 @@ const hasLicence = true;
 const age = 18;
 const isDrunk = false;
 
-if (age >= 18 && hasLicence === true && isDrunk === false) {
-    console.log('Может');
-} else {
-    console.log('Не может');    
-}
-
+const res = age >= 18 && hasLicence === true && !isDrunk ? 'Может' : 'Не может';
+console.log(res);
 
 
 
